@@ -3,8 +3,17 @@ import React, {FC} from 'react';
 const Home:FC = () => {
     return (
         <div>
-            <h1 className='text-3xl font-bold underline'>Hello World!</h1>
-
+            <header></header>
+            <main>
+                <div className="main__content">
+                    <ul className="main__popular">
+                        <li className="post"></li>
+                        <li className="post"></li>
+                        <li className="post"></li>
+                    </ul>
+                </div>
+            </main>
+            <footer>footer</footer>
         </div>
     );
 };
